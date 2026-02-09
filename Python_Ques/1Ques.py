@@ -1,3 +1,4 @@
+#Ques-To guess a randomly selected word within a limited number of tries. 
 import random
 
 name = input("What is your name? ")
@@ -41,3 +42,4 @@ while turns > 0:
         if turns == 0:
             print("You Lose")
             print("The word was:", word)
+
